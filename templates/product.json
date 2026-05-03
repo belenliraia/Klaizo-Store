@@ -110,11 +110,22 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "custom_liquid_VNnpwX": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n.hero-emergencia {\n  background: radial-gradient(circle at center, #1a0f0f 0%, #000000 70%);\n  color: #fff;\n  text-align: center;\n  padding: 120px 20px;\n  position: relative;\n  overflow: hidden;\n}\n\n.hero-emergencia small {\n  color: #ff3b3b;\n  letter-spacing: 3px;\n  font-size: 12px;\n  text-transform: uppercase;\n  display: block;\n  margin-bottom: 20px;\n  opacity: 0;\n  transform: translateY(20px);\n  animation: fadeUp 0.8s ease forwards;\n}\n\n.hero-emergencia h1 {\n  font-size: 48px;\n  font-weight: 700;\n  line-height: 1.2;\n  max-width: 900px;\n  margin: 0 auto;\n}\n\n.hero-line {\n  display: block;\n  opacity: 0;\n  transform: translateY(30px);\n  animation: fadeUp 0.8s ease forwards;\n}\n\n.hero-line:nth-child(1) { animation-delay: 0.3s; }\n.hero-line:nth-child(2) { animation-delay: 0.6s; }\n.hero-line:nth-child(3) { animation-delay: 0.9s; }\n\n.hero-line.red {\n  color: #ff2b2b;\n}\n\n.hero-emergencia p {\n  margin-top: 30px;\n  font-size: 16px;\n  color: #cfcfcf;\n  max-width: 650px;\n  margin-left: auto;\n  margin-right: auto;\n  opacity: 0;\n  transform: translateY(20px);\n  animation: fadeUp 0.8s ease forwards;\n  animation-delay: 1.2s;\n}\n\n@keyframes fadeUp {\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n\n/* Glow suave */\n.hero-emergencia::after {\n  content: \"\";\n  position: absolute;\n  width: 600px;\n  height: 600px;\n  background: radial-gradient(circle, rgba(255,0,0,0.2), transparent 70%);\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  filter: blur(100px);\n  z-index: 0;\n}\n\n.hero-emergencia * {\n  position: relative;\n  z-index: 2;\n}\n</style>\n\n<section class=\"hero-emergencia\">\n  \n  <small>DISEÑADO PARA EMERGENCIAS</small>\n\n  <h1>\n    <span class=\"hero-line\">¿Batería descargada?</span>\n    <span class=\"hero-line\">¿Neumático desinflado?</span>\n    <span class=\"hero-line red\">¿Oscuridad total en carretera?</span>\n  </h1>\n\n  <p>\n    KLAIZO PowerGo reúne las herramientas esenciales que todo conductor debería llevar siempre. \n    No dependas de terceros. La tranquilidad de saber que puedes resolver una emergencia por tu cuenta.\n  </p>\n\n</section>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "custom_liquid_WbPRwA"
+    "custom_liquid_WbPRwA",
+    "custom_liquid_VNnpwX"
   ]
 }
